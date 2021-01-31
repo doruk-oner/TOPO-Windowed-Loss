@@ -1,6 +1,6 @@
 # TOPO-Windowed-Loss
 
-A topological loss that optimizes the connectivity in road segmentations.
+A topological loss that optimizes the connectivity in road delineations.
 
 The loss is explained in:
 
