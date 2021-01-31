@@ -3,6 +3,7 @@
 TOPO-Loss is a topological loss that optimizes the connectivity in road and canal delineations.
 
 ![TOPO Loss computation](https://github.com/doruk-oner/TOPO-Windowed-Loss/blob/main/Images/TOPO_Loss.png)
+Figure 1. **Computing TOPO Loss.** We first tile the ground truth annotation and the distance map computed by our network (1). We use the ground-truth roads to segment each tile into separate regions (2). When there are unwarranted gaps in the distance map, there is a least one path connecting disjoint regions such that the the minimum distance map value along that path is not particularly small. We therefore take the cost of the path to be that minimum value (3) and we add to our loss function a term that is the maximum such value for all paths connecting points in the two distinct regions (4). This penalizes paths such as the one shown here and therefore promotes the road graph connectivity.
 
 The loss is explained in:
 
