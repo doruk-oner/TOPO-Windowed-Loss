@@ -1,6 +1,6 @@
 # TOPO-Loss
 
-TOPO-Lossis a topological loss that optimizes the connectivity in road and canal delineations.
+TOPO-Loss is a topological loss that optimizes the connectivity in road and canal delineations.
 
 ![alt text](https://github.com/doruk-oner/TOPO-Windowed-Loss/blob/main/Images/TOPO_Loss.png)
 
